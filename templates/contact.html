@@ -1,0 +1,38 @@
+{% extends 'home.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" class="form-control" readonly value="Surajit Roy">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" class="form-control" readonly value="royaleducarejgm@gmail.com">
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="address">Address:</label>
+          <textarea id="address" name="address" class="form-control" readonly>Jhargram, West Bengal, India, Pin - 721507</textarea>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" class="form-control" readonly value="+91-8371958562">
+        </div>
+        <div class="form-group">
+          <label for="company">Company:</label>
+          <input type="text" id="company" name="company" class="form-control" readonly value="Royal Educare X">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+{% endblock %}
