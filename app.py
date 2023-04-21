@@ -26,3 +26,7 @@ def refund():
 @app.route('/terms')
 def terms():
     return render_template('terms.html')
+
+@app.route('/shipping')
+def shipping():
+    return render_template('shipping.html')
